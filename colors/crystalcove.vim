@@ -24,11 +24,11 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Conceal ctermbg=NONE ctermfg=195 cterm=NONE guibg=NONE guifg=#d9feff gui=NONE
     hi Constant ctermbg=NONE ctermfg=131 cterm=NONE guibg=NONE guifg=#bb5b38 gui=NONE
     hi Error ctermbg=NONE ctermfg=88 cterm=reverse guibg=NONE guifg=#741e1b gui=reverse
-    hi Identifier ctermbg=NONE ctermfg=23 cterm=NONE guibg=NONE guifg=#255758 gui=NONE
+    hi Identifier ctermbg=NONE ctermfg=60 cterm=NONE guibg=NONE guifg=#436885 gui=NONE
     hi Ignore ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi PreProc ctermbg=NONE ctermfg=37 cterm=NONE guibg=NONE guifg=#05c1ba gui=NONE
     hi Special ctermbg=NONE ctermfg=143 cterm=NONE guibg=NONE guifg=#a4b25a gui=NONE
-    hi Statement ctermbg=NONE ctermfg=60 cterm=NONE guibg=NONE guifg=#436885 gui=NONE
+    hi Statement ctermbg=NONE ctermfg=73 cterm=NONE guibg=NONE guifg=#65bca7 gui=NONE
     hi String ctermbg=NONE ctermfg=194 cterm=NONE guibg=NONE guifg=#cfffd5 gui=NONE
     hi Todo ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
     hi Type ctermbg=NONE ctermfg=60 cterm=NONE guibg=NONE guifg=#715882 gui=NONE
@@ -57,10 +57,10 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi StatusLineNC ctermbg=60 ctermfg=173 cterm=NONE guibg=#5d697f guifg=#c48a4a gui=NONE
     hi StatusLineTerm ctermbg=173 ctermfg=23 cterm=NONE guibg=#c48a4a guifg=#1d3548 gui=NONE
     hi StatusLineTermNC ctermbg=60 ctermfg=173 cterm=NONE guibg=#5d697f guifg=#c48a4a gui=NONE
-    hi Visual ctermbg=23 ctermfg=60 cterm=reverse guibg=#1d3548 guifg=#436885 gui=reverse
+    hi Visual ctermbg=23 ctermfg=73 cterm=reverse guibg=#1d3548 guifg=#65bca7 gui=reverse
     hi VisualNOS ctermbg=NONE ctermfg=NONE cterm=underline guibg=NONE guifg=NONE gui=underline
     hi VertSplit ctermbg=60 ctermfg=60 cterm=NONE guibg=#5d697f guifg=#5d697f gui=NONE
-    hi WildMenu ctermbg=60 ctermfg=23 cterm=NONE guibg=#436885 guifg=#1d3548 gui=NONE
+    hi WildMenu ctermbg=73 ctermfg=23 cterm=NONE guibg=#65bca7 guifg=#1d3548 gui=NONE
     hi Function ctermbg=NONE ctermfg=185 cterm=NONE guibg=NONE guifg=#e1cc49 gui=NONE
     hi SpecialKey ctermbg=NONE ctermfg=103 cterm=NONE guibg=NONE guifg=#869abd gui=NONE
     hi Title ctermbg=NONE ctermfg=229 cterm=NONE guibg=NONE guifg=#faed9e gui=NONE
@@ -71,7 +71,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi IncSearch ctermbg=88 ctermfg=23 cterm=NONE guibg=#741e1b guifg=#1d3548 gui=NONE
     hi Search ctermbg=185 ctermfg=23 cterm=NONE guibg=#e1cc49 guifg=#1d3548 gui=NONE
     hi Directory ctermbg=NONE ctermfg=116 cterm=NONE guibg=NONE guifg=#89cbdf gui=NONE
-    hi debugPC ctermbg=23 ctermfg=NONE cterm=NONE guibg=#255758 guifg=NONE gui=NONE
+    hi debugPC ctermbg=60 ctermfg=NONE cterm=NONE guibg=#436885 guifg=NONE gui=NONE
     hi debugBreakpoint ctermbg=88 ctermfg=NONE cterm=NONE guibg=#741e1b guifg=NONE gui=NONE
     hi SpellBad ctermbg=NONE ctermfg=88 cterm=undercurl guibg=NONE guifg=#741e1b gui=undercurl guisp=#741e1b
     hi SpellCap ctermbg=NONE ctermfg=116 cterm=undercurl guibg=NONE guifg=#89cbdf gui=undercurl guisp=#89cbdf
@@ -207,7 +207,7 @@ let g:terminal_ansi_colors = [
         \ '#741e1b',
         \ '#a4b25a',
         \ '#c48a4a',
-        \ '#255758',
+        \ '#436885',
         \ '#362947',
         \ '#05c1ba',
         \ '#417374',
@@ -215,7 +215,7 @@ let g:terminal_ansi_colors = [
         \ '#bb5b38',
         \ '#cfffd5',
         \ '#e1cc49',
-        \ '#436885',
+        \ '#65bca7',
         \ '#715882',
         \ '#89cbdf',
         \ '#faed9e',
