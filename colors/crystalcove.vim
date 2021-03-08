@@ -24,7 +24,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Conceal ctermbg=NONE ctermfg=195 cterm=NONE guibg=NONE guifg=#d9feff gui=NONE
     hi Constant ctermbg=NONE ctermfg=131 cterm=NONE guibg=NONE guifg=#bb5b38 gui=NONE
     hi Error ctermbg=NONE ctermfg=88 cterm=reverse guibg=NONE guifg=#741e1b gui=reverse
-    hi Identifier ctermbg=NONE ctermfg=67 cterm=NONE guibg=NONE guifg=#45869b gui=NONE
+    hi Identifier ctermbg=NONE ctermfg=110 cterm=NONE guibg=NONE guifg=#78bcca gui=NONE
     hi Ignore ctermbg=NONE ctermfg=NONE cterm=NONE guibg=NONE guifg=NONE gui=NONE
     hi PreProc ctermbg=NONE ctermfg=37 cterm=NONE guibg=NONE guifg=#05c1ba gui=NONE
     hi Special ctermbg=NONE ctermfg=143 cterm=NONE guibg=NONE guifg=#a4b25a gui=NONE
@@ -71,7 +71,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi IncSearch ctermbg=88 ctermfg=23 cterm=NONE guibg=#741e1b guifg=#1d3548 gui=NONE
     hi Search ctermbg=185 ctermfg=23 cterm=NONE guibg=#e1cc49 guifg=#1d3548 gui=NONE
     hi Directory ctermbg=NONE ctermfg=116 cterm=NONE guibg=NONE guifg=#89cbdf gui=NONE
-    hi debugPC ctermbg=67 ctermfg=NONE cterm=NONE guibg=#45869b guifg=NONE gui=NONE
+    hi debugPC ctermbg=110 ctermfg=NONE cterm=NONE guibg=#78bcca guifg=NONE gui=NONE
     hi debugBreakpoint ctermbg=88 ctermfg=NONE cterm=NONE guibg=#741e1b guifg=NONE gui=NONE
     hi SpellBad ctermbg=NONE ctermfg=88 cterm=undercurl guibg=NONE guifg=#741e1b gui=undercurl guisp=#741e1b
     hi SpellCap ctermbg=NONE ctermfg=116 cterm=undercurl guibg=NONE guifg=#89cbdf gui=undercurl guisp=#89cbdf
@@ -207,7 +207,7 @@ let g:terminal_ansi_colors = [
         \ '#741e1b',
         \ '#a4b25a',
         \ '#c48a4a',
-        \ '#45869b',
+        \ '#78bcca',
         \ '#362947',
         \ '#05c1ba',
         \ '#417374',
