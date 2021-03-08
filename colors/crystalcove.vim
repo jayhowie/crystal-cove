@@ -31,7 +31,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi Statement ctermbg=NONE ctermfg=73 cterm=NONE guibg=NONE guifg=#65bca7 gui=NONE
     hi String ctermbg=NONE ctermfg=194 cterm=NONE guibg=NONE guifg=#cfffd5 gui=NONE
     hi Todo ctermbg=NONE ctermfg=NONE cterm=reverse guibg=NONE guifg=NONE gui=reverse
-    hi Type ctermbg=NONE ctermfg=60 cterm=NONE guibg=NONE guifg=#715882 gui=NONE
+    hi Type ctermbg=NONE ctermfg=132 cterm=NONE guibg=NONE guifg=#a7338e gui=NONE
     hi Underlined ctermbg=NONE ctermfg=37 cterm=underline guibg=NONE guifg=#05c1ba gui=underline
     hi Pmenu ctermbg=60 ctermfg=195 cterm=NONE guibg=#5d697f guifg=#d9feff gui=NONE
     hi PmenuSbar ctermbg=103 ctermfg=NONE cterm=NONE guibg=#869abd guifg=NONE gui=NONE
@@ -65,7 +65,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
     hi SpecialKey ctermbg=NONE ctermfg=103 cterm=NONE guibg=NONE guifg=#869abd gui=NONE
     hi Title ctermbg=NONE ctermfg=229 cterm=NONE guibg=NONE guifg=#faed9e gui=NONE
     hi DiffAdd ctermbg=23 ctermfg=194 cterm=reverse guibg=#1d3548 guifg=#cfffd5 gui=reverse
-    hi DiffChange ctermbg=23 ctermfg=60 cterm=reverse guibg=#1d3548 guifg=#715882 gui=reverse
+    hi DiffChange ctermbg=23 ctermfg=132 cterm=reverse guibg=#1d3548 guifg=#a7338e gui=reverse
     hi DiffDelete ctermbg=23 ctermfg=88 cterm=reverse guibg=#1d3548 guifg=#741e1b gui=reverse
     hi DiffText ctermbg=23 ctermfg=131 cterm=reverse guibg=#1d3548 guifg=#bb5b38 gui=reverse
     hi IncSearch ctermbg=88 ctermfg=23 cterm=NONE guibg=#741e1b guifg=#1d3548 gui=NONE
@@ -208,7 +208,7 @@ let g:terminal_ansi_colors = [
         \ '#a4b25a',
         \ '#c48a4a',
         \ '#78bcca',
-        \ '#362947',
+        \ '#715882',
         \ '#05c1ba',
         \ '#417374',
         \ '#5d697f',
@@ -216,7 +216,7 @@ let g:terminal_ansi_colors = [
         \ '#cfffd5',
         \ '#e1cc49',
         \ '#65bca7',
-        \ '#715882',
+        \ '#a7338e',
         \ '#89cbdf',
         \ '#faed9e',
         \ ]
