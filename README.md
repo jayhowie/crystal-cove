@@ -7,6 +7,7 @@ The color palette consists entirely of hues taken from the following promotional
 ![poster](https://upload.wikimedia.org/wikipedia/en/b/bb/Scooby_doo_mystery_incorporated_poster.jpg)
 
 ## Screenshot
+![screenshot](https://github.com/jayhowie/crystal-cove/blob/main/Screenshot.jpg)
 
 ## Install
 The colors/crystalcove.vim file can of course be copied to ~/.vim/colors, etc.
